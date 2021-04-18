@@ -1,3 +1,4 @@
+/* Home Page */
 * {
   padding: 0;
   margin: 0;
@@ -42,7 +43,7 @@ header {
   width: 3.8rem;
 }
 
-.login-box button {
+.login-box a {
   width: 3rem;
   height: 1.5rem;
   font-size: 0.6rem;
@@ -94,6 +95,57 @@ ul li a:hover {
 }
 
 
+/* Login Page */
+.login-option {
+  width: 80%;
+  margin: 5rem auto 0 auto;
+}
+
+.login a {
+  margin-left: 45%;
+}
+
+.indiv-login-form,
+.comp-login-form {
+  width: 80%;
+  margin: 10rem auto 0 auto;
+}
+
+.indiv-login-form a,
+.comp-login-form a {
+  height: 2rem;
+}
+
+.form-box-2 {
+  display: none;
+}
+
+.form-box-1 {
+  display: none;
+}
+
+.indiv-sign-up {
+  display: none;
+}
+
+.comp-sign-up {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Sign up page */
+.indiv-sign-up-form,
+.comp-sign-up-form {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.address-text {
+  min-height: 7rem;
+}
 
 @media (min-width: 992px) {
     .main-holder {
@@ -132,10 +184,35 @@ ul li a:hover {
       width: 4.2rem;
     }
       
-    .login-box button {
+    .login-box a {
       width: 3.4rem;
       height: 1.8rem;
       font-size: 0.7rem;
+    }
+
+    /* Login Form */
+    .login-option {
+      width: 40%;
+    }
+
+    .indiv-login-form,
+    .comp-login-form {
+      width: 60%;
+      margin-top: 5rem;
+    }
+    
+    /* Sign Up Form */
+    .indiv-sign-up-form,
+    .comp-sign-up-form {
+      width: 60%;
+    }
+
+    .sign-up-height {
+      height: 70vh;
+    }
+
+    .login-option {
+       margin: 2rem auto 2rem auto;
     }
 }
 
