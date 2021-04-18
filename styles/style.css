@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.logo-box {
+  width: 2rem;
+  height: 2rem;
+}
+
+main {
+  height: 80vh;
+}
+
+header {
+  padding: 0 0.2rem;
+}
+
+.search-box {
+  margin: 0 15% 0 15%;
+}
+
+.main-holder {
+  margin-top: 35vh;
+}
+
+#input-text {
+  width: 70%;
+}
+
+#submit-item {
+  width: 30%;
+  font-size: 0.9rem;
+}
+
+#sign-up {
+  width: 3.8rem;
+}
+
+.login-box button {
+  width: 3rem;
+  height: 1.5rem;
+  font-size: 0.6rem;
+}
+
+.service-options {
+  margin: 0 auto 5rem auto;
+  width: 70%;
+}
+
+.service-options a,
+ul li a {
+  font-size: 1.2rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+.footer-links ul {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li a:hover {
+  color: #ce9f67;
+  text-decoration: dotted;
+}
+
+.contact-2 {
+ font-size: 0.9rem;
+}
+
+.contact-2 .fas {
+  color: #ce9f67;
+}
+
+.copyright-box {
+  height: 2rem;
+}
+
+.copyright-box p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media (min-width: 992px) {
+    .main-holder {
+      margin-top: 38vh;
+    }
+
+    .service-options > :nth-child(2),
+    .service-options > :nth-child(3) {
+      margin-top: 0.5rem;
+    }
+
+    main {
+      height: 54vh;
+    }
+
+    .search-box {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .service-options {
+      width: 50%;
+    }
+
+    .service-options a {
+      width: 10rem;
+      height: 2.5rem;
+    }
+
+    .footer-md-box {
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    #sign-up {
+      width: 4.2rem;
+    }
+      
+    .login-box button {
+      width: 3.4rem;
+      height: 1.8rem;
+      font-size: 0.7rem;
+    }
+}
+
