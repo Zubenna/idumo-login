@@ -45,15 +45,15 @@ header {
 }
 
 .image-box-1 {
-  background-image: url(/images/work-history-sample.jpg);
+  background-image: url(../images/work-history-sample.jpg);
 }
 
 .image-box-2 {
-  background-image: url(/images/sample-travel-hist.jpg); 
+  background-image: url(../images/sample-travel-hist.jpg); 
 }
 
 .image-box-3 {
-  background-image: url(/images/sample-honor-roll.png); 
+  background-image: url(../images/sample-honor-roll.png); 
 }
 
 .main-holder {
@@ -147,6 +147,11 @@ ul li a:hover {
   margin-left: 45%;
 }
 
+#indiv-button,
+#comp-button {
+  min-width: 4rem;
+}
+
 .indiv-login-form,
 .comp-login-form {
   width: 80%;
@@ -155,7 +160,7 @@ ul li a:hover {
 
 .indiv-login-form a,
 .comp-login-form a {
-  height: 2rem;
+  height: 3rem;
 }
 
 .form-box-2 {
@@ -187,6 +192,22 @@ ul li a:hover {
 
 .address-text {
   min-height: 7rem;
+}
+
+@media (min-width: 576px) {
+  .indiv-login-form,
+  .comp-login-form {
+    margin: 2rem auto;
+  }
+
+  .sign-up-height {
+    height: 27rem;
+  }
+
+  .indiv-sign-up-form,
+  .comp-sign-up-form {
+    margin: 1rem auto 3rem auto;
+  }
 }
 
 @media (min-width: 768px) {
